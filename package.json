@@ -1,0 +1,20 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test_one": "cypress run --browser chrome --headed --config-file cypress.config.js",
+    "test_two": "cypress run --browser chrome --headed --config-file cypress_two.config.js",
+    "test_three": "cypress run --browser chrome --headless --config-file cypress.config.js",
+    "test_four": "cypress run --browser chrome --headedless --config-file cypress_two.config.js"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "tarasovaN",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.15.1"
+  }
+}
